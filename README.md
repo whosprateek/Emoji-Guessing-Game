@@ -8,8 +8,8 @@
     <li><b>Score Tracking:</b> The game actively tracks and displays the player's current score.</li>
     <li><b>Immediate Feedback:</b> Provides instant visual feedback for each guess:
         <ul>
-            <li><b>Positive Reinforcement:</b> Displays "+[Score_Value]" (e.g., "+10") for correct answers.</li>
-            <li><b>Negative Reinforcement:</b> Displays "-[Score_Value]" (e.g., "-5") for incorrect answers.</li>
+            <li><b>Correct Answers:</b> Adds `+1` to the score and provides positive reinforcement.</li>
+            <li><b>Incorrect Answers:</b> Clearly indicates a wrong answer without penalizing the score.</li>
         </ul>
     </li>
     <li><b>Dynamic Content:</b> Emojis and their corresponding answers are managed dynamically via JavaScript.</li>
